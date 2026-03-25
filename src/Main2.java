@@ -3,13 +3,13 @@ class Vehicle{
     int miles;
 
 
-    public void move(){
+     void move(){
         System.out.println(name + " is moving");
     }
-    public void state(){
+     void state(){
         System.out.println(name + " is broken");
     }
-    public void size(){
+     void size(){
         System.out.println(name + " is humongous");
 
     }
@@ -18,7 +18,7 @@ class Vehicle{
 class Bike extends Vehicle{
     String model;
 
-    public void condition(){
+     void condition(){
 
         System.out.println(model + " is from 2006");
         System.out.println(name + " has " + miles + " miles on it");
@@ -28,7 +28,7 @@ class Bike extends Vehicle{
 class Train extends Vehicle{
     String feature;
     String speed;
-    public void type(){
+     void type(){
         System.out.println(name + "is a " + feature + "train");
         System.out.println(name + " is also a " + speed + " train");
     }
